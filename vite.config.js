@@ -8,4 +8,6 @@ export default defineConfig({
     target: 'esnext',
     // other build options...
   },
+  // Set jsx option to "preserve" or "react-jsx"
+  jsx: 'preserve', // or 'react-jsx'
 })
